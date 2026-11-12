@@ -1,13 +1,296 @@
+
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width.initial-escale=1.0">
-        <title>PRIME </title>
-        
-    </head>
-    <body>
-        <h1>PRIME</h1>
-        <p>espacio deportivo inclusivo,puente entre academias,coaches y canchas</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME | Sports Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-symbol">➤</span>
+            PRIME
+        </a>
+
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#courts">Courts</a>
+            <a href="#community">Community</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="signin.html" class="signin">Sign In</a>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+
+                <p class="eyebrow">SPORTS PLATFORM</p>
+
+                <h1>
+                    CONNECT, TRAIN<br>
+                    AND PLAY,<br>
+                    WITH <span>PRIME.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Find courts, connect with athletes and take
+                    your game to the next level.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#courts" class="button orange-button">
+                        EXPLORE COURTS
+                    </a>
+
+                    <a href="#community" class="button outline-button">
+                        JOIN COMMUNITY
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>TRAIN HARDER.</span>
+                <span>PLAY SMARTER.</span>
+                <span>BE PRIME.</span>
+            </div>
+        </section>
+
+        <!-- COURTS -->
+        <section class="courts section" id="courts">
+
+            <div class="section-heading">
+                <p class="eyebrow">— SPORTS COURTS</p>
+                <h2>BOOK YOUR COURT IN<br>UNDER A MINUTE.</h2>
+                <p class="section-description">
+                    Discover sports facilities near you and find
+                    the perfect place to play.
+                </p>
+            </div>
+
+            <div class="filter">
+                <span>All Sports</span>
+                <span>Football</span>
+                <span>Tennis</span>
+                <span>Swimming</span>
+            </div>
+
+            <div class="court-grid">
+
+                <article class="court-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=700"
+                        alt="Swimming pool">
+                    <div class="court-info">
+                        <span class="rating">★ 4.6</span>
+                        <p class="category">SWIMMING</p>
+                        <h3>Municipal Swimming Pool</h3>
+                        <p class="location">La Chorrera, Panama West</p>
+                        <p class="price">$25 <small>/ hour</small></p>
+                        <a href="#contact" class="card-button">BOOK NOW →</a>
+                    </div>
+                </article>
+
+                <article class="court-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=700"
+                        alt="Tennis court">
+                    <div class="court-info">
+                        <span class="rating">★ 4.7</span>
+                        <p class="category">TENNIS</p>
+                        <h3>Volleyball & Tennis Court</h3>
+                        <p class="location">La Chorrera, Panama West</p>
+                        <p class="price">$40 <small>/ hour</small></p>
+                        <a href="#contact" class="card-button">BOOK NOW →</a>
+                    </div>
+                </article>
+
+                <article class="court-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=700"
+                        alt="Football field">
+                    <div class="court-info">
+                        <span class="rating">★ 4.8</span>
+                        <p class="category">FOOTBALL</p>
+                        <h3>Municipal Turf Pitch</h3>
+                        <p class="location">La Chorrera, Panama West</p>
+                        <p class="price">$28 <small>/ hour</small></p>
+                        <a href="#contact" class="card-button">BOOK NOW →</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="center-button">
+                <a href="courts.html" class="button dark-button">
+                    VIEW ALL COURTS →
+                </a>
+            </div>
+
+        </section>
+
+        <!-- COMMUNITY -->
+        <section class="community" id="community">
+            <div class="community-content">
+                <p class="eyebrow">— PRIME COMMUNITY</p>
+
+                <h2>TRAIN TOGETHER.<br>
+                    <span>PLAY BETTER.</span>
+                </h2>
+
+                <p>
+                    Connect with athletes, find teammates,
+                    join groups and create matches with
+                    people who share your passion.
+                </p>
+
+                <a href="community.html" class="button orange-button">
+                    JOIN THE COMMUNITY →
+                </a>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section class="blog section" id="blog">
+
+            <div class="section-heading blog-heading">
+                <p class="eyebrow">— PRIME BLOG</p>
+                <h2>HEALTH, TRAINING AND COMMUNITY.</h2>
+                <p class="section-description">
+                    Discover training tips, sports news and
+                    stories that inspire you to improve.
+                </p>
+            </div>
+
+            <div class="blog-grid">
+
+                <article class="blog-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800"
+                        alt="Athlete training">
+                    <div class="blog-info">
+                        <p class="category">TRAINING</p>
+                        <h3>4 routines to boost your endurance</h3>
+                        <p class="blog-date">TRAIN SMARTER · PRIME BLOG</p>
+                        <a href="blog.html">READ ARTICLE →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800"
+                        alt="Sports community">
+                    <div class="blog-info">
+                        <p class="category">COMMUNITY</p>
+                        <h3>Why playing together makes us better</h3>
+                        <p class="blog-date">SPORTS & PEOPLE · PRIME BLOG</p>
+                        <a href="blog.html">READ ARTICLE →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800"
+                        alt="Running athlete">
+                    <div class="blog-info">
+                        <p class="category">SPORTS</p>
+                        <h3>How to improve your athletic performance</h3>
+                        <p class="blog-date">PERFORMANCE · PRIME BLOG</p>
+                        <a href="blog.html">READ ARTICLE →</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="center-button">
+                <a href="blog.html" class="button dark-button">
+                    EXPLORE THE BLOG →
+                </a>
+            </div>
+
+        </section>
+
+        <!-- PROFILE / CALL TO ACTION -->
+        <section class="profile">
+            <div class="profile-content">
+                <p class="eyebrow">— YOUR PRIME EXPERIENCE</p>
+                <h2>YOUR GAME.<br>
+                    YOUR PROGRESS.<br>
+                    <span>YOUR PRIME.</span>
+                </h2>
+                <p>
+                    Track your activities, discover new sports
+                    and celebrate every achievement.
+                </p>
+                <a href="profile.html" class="button orange-button">
+                    VIEW YOUR PROFILE →
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <p class="eyebrow">— GET IN TOUCH</p>
+            <h2>READY TO PLAY?</h2>
+            <p>Take your game to the next level with PRIME.</p>
+            <a href="contact.html" class="button orange-button">
+                CONTACT US →
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-brand">
+            <a href="#home" class="logo">
+                <span class="logo-symbol">➤</span>
+                PRIME
+            </a>
+            <p>
+                Connect, train and play.<br>
+                The platform that unites<br>
+                the sports community.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>NAVIGATION</h3>
+            <a href="#home">Home</a>
+            <a href="courts.html">Courts</a>
+            <a href="profile.html">Profile</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>COMMUNITY</h3>
+            <a href="community.html">Groups</a>
+            <a href="blog.html">Blog</a>
+            <a href="scoreboard.html">Scoreboard</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>LEGAL</h3>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 PRIME. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
 </html>
